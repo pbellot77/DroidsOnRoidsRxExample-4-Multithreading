@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA984CE61E2445ED00D5A796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CE51E2445ED00D5A796 /* AppDelegate.swift */; };
+		BA984CE81E2445ED00D5A796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CE71E2445ED00D5A796 /* ViewController.swift */; };
+		BA984CEB1E2445ED00D5A796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA984CE91E2445ED00D5A796 /* Main.storyboard */; };
+		BA984CED1E2445ED00D5A796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA984CEC1E2445ED00D5A796 /* Assets.xcassets */; };
+		BA984CF01E2445ED00D5A796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA984CEE1E2445ED00D5A796 /* LaunchScreen.storyboard */; };
+		BA984CFB1E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CFA1E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingTests.swift */; };
+		BA984D061E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984D051E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA984CF71E2445ED00D5A796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA984CDA1E2445EC00D5A796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA984CE11E2445ED00D5A796;
+			remoteInfo = "DroidsOnRoidsExample#4-multithreading";
+		};
+		BA984D021E2445ED00D5A796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA984CDA1E2445EC00D5A796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA984CE11E2445ED00D5A796;
+			remoteInfo = "DroidsOnRoidsExample#4-multithreading";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA984CE21E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DroidsOnRoidsExample#4-multithreading.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA984CE51E2445ED00D5A796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA984CE71E2445ED00D5A796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA984CEA1E2445ED00D5A796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA984CEC1E2445ED00D5A796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA984CEF1E2445ED00D5A796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA984CF11E2445ED00D5A796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA984CF61E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DroidsOnRoidsExample#4-multithreadingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA984CFA1E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidsOnRoidsExample_4_multithreadingTests.swift; sourceTree = "<group>"; };
+		BA984CFC1E2445ED00D5A796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA984D011E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DroidsOnRoidsExample#4-multithreadingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA984D051E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidsOnRoidsExample_4_multithreadingUITests.swift; sourceTree = "<group>"; };
+		BA984D071E2445ED00D5A796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA984CDF1E2445ED00D5A796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA984CF31E2445ED00D5A796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA984CFE1E2445ED00D5A796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA984CD91E2445EC00D5A796 = {
+			isa = PBXGroup;
+			children = (
+				BA984CE41E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreading */,
+				BA984CF91E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingTests */,
+				BA984D041E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingUITests */,
+				BA984CE31E2445ED00D5A796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA984CE31E2445ED00D5A796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA984CE21E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreading.app */,
+				BA984CF61E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingTests.xctest */,
+				BA984D011E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA984CE41E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreading */ = {
+			isa = PBXGroup;
+			children = (
+				BA984CE51E2445ED00D5A796 /* AppDelegate.swift */,
+				BA984CE71E2445ED00D5A796 /* ViewController.swift */,
+				BA984CE91E2445ED00D5A796 /* Main.storyboard */,
+				BA984CEC1E2445ED00D5A796 /* Assets.xcassets */,
+				BA984CEE1E2445ED00D5A796 /* LaunchScreen.storyboard */,
+				BA984CF11E2445ED00D5A796 /* Info.plist */,
+			);
+			path = "DroidsOnRoidsExample#4-multithreading";
+			sourceTree = "<group>";
+		};
+		BA984CF91E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA984CFA1E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingTests.swift */,
+				BA984CFC1E2445ED00D5A796 /* Info.plist */,
+			);
+			path = "DroidsOnRoidsExample#4-multithreadingTests";
+			sourceTree = "<group>";
+		};
+		BA984D041E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA984D051E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingUITests.swift */,
+				BA984D071E2445ED00D5A796 /* Info.plist */,
+			);
+			path = "DroidsOnRoidsExample#4-multithreadingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA984CE11E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA984D0A1E2445ED00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsExample#4-multithreading" */;
+			buildPhases = (
+				BA984CDE1E2445ED00D5A796 /* Sources */,
+				BA984CDF1E2445ED00D5A796 /* Frameworks */,
+				BA984CE01E2445ED00D5A796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DroidsOnRoidsExample#4-multithreading";
+			productName = "DroidsOnRoidsExample#4-multithreading";
+			productReference = BA984CE21E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA984CF51E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA984D0D1E2445ED00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsExample#4-multithreadingTests" */;
+			buildPhases = (
+				BA984CF21E2445ED00D5A796 /* Sources */,
+				BA984CF31E2445ED00D5A796 /* Frameworks */,
+				BA984CF41E2445ED00D5A796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA984CF81E2445ED00D5A796 /* PBXTargetDependency */,
+			);
+			name = "DroidsOnRoidsExample#4-multithreadingTests";
+			productName = "DroidsOnRoidsExample#4-multithreadingTests";
+			productReference = BA984CF61E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA984D001E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA984D101E2445ED00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsExample#4-multithreadingUITests" */;
+			buildPhases = (
+				BA984CFD1E2445ED00D5A796 /* Sources */,
+				BA984CFE1E2445ED00D5A796 /* Frameworks */,
+				BA984CFF1E2445ED00D5A796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA984D031E2445ED00D5A796 /* PBXTargetDependency */,
+			);
+			name = "DroidsOnRoidsExample#4-multithreadingUITests";
+			productName = "DroidsOnRoidsExample#4-multithreadingUITests";
+			productReference = BA984D011E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA984CDA1E2445EC00D5A796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bell OS, LLC";
+				TargetAttributes = {
+					BA984CE11E2445ED00D5A796 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BR4H78C3XC;
+						ProvisioningStyle = Automatic;
+					};
+					BA984CF51E2445ED00D5A796 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BR4H78C3XC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA984CE11E2445ED00D5A796;
+					};
+					BA984D001E2445ED00D5A796 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BR4H78C3XC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA984CE11E2445ED00D5A796;
+					};
+				};
+			};
+			buildConfigurationList = BA984CDD1E2445EC00D5A796 /* Build configuration list for PBXProject "DroidsOnRoidsExample#4-multithreading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA984CD91E2445EC00D5A796;
+			productRefGroup = BA984CE31E2445ED00D5A796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA984CE11E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreading */,
+				BA984CF51E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingTests */,
+				BA984D001E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA984CE01E2445ED00D5A796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA984CF01E2445ED00D5A796 /* LaunchScreen.storyboard in Resources */,
+				BA984CED1E2445ED00D5A796 /* Assets.xcassets in Resources */,
+				BA984CEB1E2445ED00D5A796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA984CF41E2445ED00D5A796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA984CFF1E2445ED00D5A796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA984CDE1E2445ED00D5A796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA984CE81E2445ED00D5A796 /* ViewController.swift in Sources */,
+				BA984CE61E2445ED00D5A796 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA984CF21E2445ED00D5A796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA984CFB1E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA984CFD1E2445ED00D5A796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA984D061E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA984CF81E2445ED00D5A796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA984CE11E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreading */;
+			targetProxy = BA984CF71E2445ED00D5A796 /* PBXContainerItemProxy */;
+		};
+		BA984D031E2445ED00D5A796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA984CE11E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreading */;
+			targetProxy = BA984D021E2445ED00D5A796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA984CE91E2445ED00D5A796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA984CEA1E2445ED00D5A796 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA984CEE1E2445ED00D5A796 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA984CEF1E2445ED00D5A796 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA984D081E2445ED00D5A796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA984D091E2445ED00D5A796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA984D0B1E2445ED00D5A796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = "DroidsOnRoidsExample#4-multithreading/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickBellot.DroidsOnRoidsExample-4-multithreading";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA984D0C1E2445ED00D5A796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = "DroidsOnRoidsExample#4-multithreading/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickBellot.DroidsOnRoidsExample-4-multithreading";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BA984D0E1E2445ED00D5A796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = "DroidsOnRoidsExample#4-multithreadingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickBellot.DroidsOnRoidsExample-4-multithreadingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroidsOnRoidsExample#4-multithreading.app/DroidsOnRoidsExample#4-multithreading";
+			};
+			name = Debug;
+		};
+		BA984D0F1E2445ED00D5A796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = "DroidsOnRoidsExample#4-multithreadingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickBellot.DroidsOnRoidsExample-4-multithreadingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroidsOnRoidsExample#4-multithreading.app/DroidsOnRoidsExample#4-multithreading";
+			};
+			name = Release;
+		};
+		BA984D111E2445ED00D5A796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = "DroidsOnRoidsExample#4-multithreadingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickBellot.DroidsOnRoidsExample-4-multithreadingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DroidsOnRoidsExample#4-multithreading";
+			};
+			name = Debug;
+		};
+		BA984D121E2445ED00D5A796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BR4H78C3XC;
+				INFOPLIST_FILE = "DroidsOnRoidsExample#4-multithreadingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickBellot.DroidsOnRoidsExample-4-multithreadingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DroidsOnRoidsExample#4-multithreading";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA984CDD1E2445EC00D5A796 /* Build configuration list for PBXProject "DroidsOnRoidsExample#4-multithreading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA984D081E2445ED00D5A796 /* Debug */,
+				BA984D091E2445ED00D5A796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA984D0A1E2445ED00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsExample#4-multithreading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA984D0B1E2445ED00D5A796 /* Debug */,
+				BA984D0C1E2445ED00D5A796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA984D0D1E2445ED00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsExample#4-multithreadingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA984D0E1E2445ED00D5A796 /* Debug */,
+				BA984D0F1E2445ED00D5A796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA984D101E2445ED00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsExample#4-multithreadingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA984D111E2445ED00D5A796 /* Debug */,
+				BA984D121E2445ED00D5A796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA984CDA1E2445EC00D5A796 /* Project object */;
+}
