@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3210607602504AAE9B4BD3DF /* Pods_DroidsOnRoidsExample_4_multithreadingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E943E656090AFDE2D5CD0069 /* Pods_DroidsOnRoidsExample_4_multithreadingUITests.framework */; };
+		9F13335A8644403E4DB27E1A /* Pods_DroidsOnRoidsExample_4_multithreading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60A79334A75B5AF619F46B6 /* Pods_DroidsOnRoidsExample_4_multithreading.framework */; };
 		BA984CE61E2445ED00D5A796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CE51E2445ED00D5A796 /* AppDelegate.swift */; };
-		BA984CE81E2445ED00D5A796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CE71E2445ED00D5A796 /* ViewController.swift */; };
 		BA984CEB1E2445ED00D5A796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA984CE91E2445ED00D5A796 /* Main.storyboard */; };
 		BA984CED1E2445ED00D5A796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA984CEC1E2445ED00D5A796 /* Assets.xcassets */; };
 		BA984CF01E2445ED00D5A796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA984CEE1E2445ED00D5A796 /* LaunchScreen.storyboard */; };
 		BA984CFB1E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984CFA1E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingTests.swift */; };
 		BA984D061E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984D051E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingUITests.swift */; };
+		BA984D141E24487D00D5A796 /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984D131E24487D00D5A796 /* RepositoriesViewController.swift */; };
+		BA984D161E244B5600D5A796 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984D151E244B5600D5A796 /* Repository.swift */; };
+		BA984D181E244D0000D5A796 /* RepositoryNetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984D171E244D0000D5A796 /* RepositoryNetworkModel.swift */; };
+		CFD7177EDC1CE140FC935DB0 /* Pods_DroidsOnRoidsExample_4_multithreadingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0C4262C3CB2583404B5A36 /* Pods_DroidsOnRoidsExample_4_multithreadingTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00E38483BBB473637E5B30A0 /* Pods-DroidsOnRoidsExample#4-multithreadingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsExample#4-multithreadingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsExample#4-multithreadingUITests/Pods-DroidsOnRoidsExample#4-multithreadingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1D0C4262C3CB2583404B5A36 /* Pods_DroidsOnRoidsExample_4_multithreadingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroidsOnRoidsExample_4_multithreadingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A30039A7E5BACD23C8EE4A8 /* Pods-DroidsOnRoidsExample#4-multithreadingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsExample#4-multithreadingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsExample#4-multithreadingUITests/Pods-DroidsOnRoidsExample#4-multithreadingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B5B57749648CA5D5255C6E1 /* Pods-DroidsOnRoidsExample#4-multithreadingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsExample#4-multithreadingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsExample#4-multithreadingTests/Pods-DroidsOnRoidsExample#4-multithreadingTests.release.xcconfig"; sourceTree = "<group>"; };
+		8300B541C2A1A1C9E8DF0F9D /* Pods-DroidsOnRoidsExample#4-multithreading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsExample#4-multithreading.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsExample#4-multithreading/Pods-DroidsOnRoidsExample#4-multithreading.debug.xcconfig"; sourceTree = "<group>"; };
+		8748D478F3AEC6582C7B6229 /* Pods-DroidsOnRoidsExample#4-multithreadingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsExample#4-multithreadingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsExample#4-multithreadingTests/Pods-DroidsOnRoidsExample#4-multithreadingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1F96A4343F7B9FBD61A43B9 /* Pods-DroidsOnRoidsExample#4-multithreading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsExample#4-multithreading.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsExample#4-multithreading/Pods-DroidsOnRoidsExample#4-multithreading.release.xcconfig"; sourceTree = "<group>"; };
 		BA984CE21E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DroidsOnRoidsExample#4-multithreading.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA984CE51E2445ED00D5A796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA984CE71E2445ED00D5A796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA984CEA1E2445ED00D5A796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA984CEC1E2445ED00D5A796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA984CEF1E2445ED00D5A796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		BA984D011E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DroidsOnRoidsExample#4-multithreadingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA984D051E2445ED00D5A796 /* DroidsOnRoidsExample_4_multithreadingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidsOnRoidsExample_4_multithreadingUITests.swift; sourceTree = "<group>"; };
 		BA984D071E2445ED00D5A796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA984D131E24487D00D5A796 /* RepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesViewController.swift; sourceTree = "<group>"; };
+		BA984D151E244B5600D5A796 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		BA984D171E244D0000D5A796 /* RepositoryNetworkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryNetworkModel.swift; sourceTree = "<group>"; };
+		D60A79334A75B5AF619F46B6 /* Pods_DroidsOnRoidsExample_4_multithreading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroidsOnRoidsExample_4_multithreading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E943E656090AFDE2D5CD0069 /* Pods_DroidsOnRoidsExample_4_multithreadingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroidsOnRoidsExample_4_multithreadingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F13335A8644403E4DB27E1A /* Pods_DroidsOnRoidsExample_4_multithreading.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD7177EDC1CE140FC935DB0 /* Pods_DroidsOnRoidsExample_4_multithreadingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3210607602504AAE9B4BD3DF /* Pods_DroidsOnRoidsExample_4_multithreadingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D9F72CFA1844F68DC313C74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D60A79334A75B5AF619F46B6 /* Pods_DroidsOnRoidsExample_4_multithreading.framework */,
+				1D0C4262C3CB2583404B5A36 /* Pods_DroidsOnRoidsExample_4_multithreadingTests.framework */,
+				E943E656090AFDE2D5CD0069 /* Pods_DroidsOnRoidsExample_4_multithreadingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA984CD91E2445EC00D5A796 = {
 			isa = PBXGroup;
 			children = (
@@ -81,8 +110,13 @@
 				BA984CF91E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingTests */,
 				BA984D041E2445ED00D5A796 /* DroidsOnRoidsExample#4-multithreadingUITests */,
 				BA984CE31E2445ED00D5A796 /* Products */,
+				F05AEA3A386C0954DB55711B /* Pods */,
+				5D9F72CFA1844F68DC313C74 /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 1;
 		};
 		BA984CE31E2445ED00D5A796 /* Products */ = {
 			isa = PBXGroup;
@@ -98,8 +132,10 @@
 			isa = PBXGroup;
 			children = (
 				BA984CE51E2445ED00D5A796 /* AppDelegate.swift */,
-				BA984CE71E2445ED00D5A796 /* ViewController.swift */,
 				BA984CE91E2445ED00D5A796 /* Main.storyboard */,
+				BA984D131E24487D00D5A796 /* RepositoriesViewController.swift */,
+				BA984D151E244B5600D5A796 /* Repository.swift */,
+				BA984D171E244D0000D5A796 /* RepositoryNetworkModel.swift */,
 				BA984CEC1E2445ED00D5A796 /* Assets.xcassets */,
 				BA984CEE1E2445ED00D5A796 /* LaunchScreen.storyboard */,
 				BA984CF11E2445ED00D5A796 /* Info.plist */,
@@ -125,6 +161,19 @@
 			path = "DroidsOnRoidsExample#4-multithreadingUITests";
 			sourceTree = "<group>";
 		};
+		F05AEA3A386C0954DB55711B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8300B541C2A1A1C9E8DF0F9D /* Pods-DroidsOnRoidsExample#4-multithreading.debug.xcconfig */,
+				A1F96A4343F7B9FBD61A43B9 /* Pods-DroidsOnRoidsExample#4-multithreading.release.xcconfig */,
+				8748D478F3AEC6582C7B6229 /* Pods-DroidsOnRoidsExample#4-multithreadingTests.debug.xcconfig */,
+				3B5B57749648CA5D5255C6E1 /* Pods-DroidsOnRoidsExample#4-multithreadingTests.release.xcconfig */,
+				3A30039A7E5BACD23C8EE4A8 /* Pods-DroidsOnRoidsExample#4-multithreadingUITests.debug.xcconfig */,
+				00E38483BBB473637E5B30A0 /* Pods-DroidsOnRoidsExample#4-multithreadingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA984D0A1E2445ED00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsExample#4-multithreading" */;
 			buildPhases = (
+				A4CF429AD5B60AD80D188A42 /* [CP] Check Pods Manifest.lock */,
 				BA984CDE1E2445ED00D5A796 /* Sources */,
 				BA984CDF1E2445ED00D5A796 /* Frameworks */,
 				BA984CE01E2445ED00D5A796 /* Resources */,
+				197004C0A51D55F1262A385B /* [CP] Embed Pods Frameworks */,
+				9573072C6A4C6DF4490960BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA984D0D1E2445ED00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsExample#4-multithreadingTests" */;
 			buildPhases = (
+				1707215BACDC729E01AA2964 /* [CP] Check Pods Manifest.lock */,
 				BA984CF21E2445ED00D5A796 /* Sources */,
 				BA984CF31E2445ED00D5A796 /* Frameworks */,
 				BA984CF41E2445ED00D5A796 /* Resources */,
+				F58A55AEEC2840E436877DF0 /* [CP] Embed Pods Frameworks */,
+				F6B5D14804ED2E62BD5AA034 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA984D101E2445ED00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsExample#4-multithreadingUITests" */;
 			buildPhases = (
+				67F10E54017928AAD27896D2 /* [CP] Check Pods Manifest.lock */,
 				BA984CFD1E2445ED00D5A796 /* Sources */,
 				BA984CFE1E2445ED00D5A796 /* Frameworks */,
 				BA984CFF1E2445ED00D5A796 /* Resources */,
+				F49BCBB90E5D9651B934072B /* [CP] Embed Pods Frameworks */,
+				1F9EB73D4DCF95DA553FA533 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +315,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1707215BACDC729E01AA2964 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		197004C0A51D55F1262A385B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsExample#4-multithreading/Pods-DroidsOnRoidsExample#4-multithreading-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F9EB73D4DCF95DA553FA533 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsExample#4-multithreadingUITests/Pods-DroidsOnRoidsExample#4-multithreadingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67F10E54017928AAD27896D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9573072C6A4C6DF4490960BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsExample#4-multithreading/Pods-DroidsOnRoidsExample#4-multithreading-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4CF429AD5B60AD80D188A42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F49BCBB90E5D9651B934072B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsExample#4-multithreadingUITests/Pods-DroidsOnRoidsExample#4-multithreadingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F58A55AEEC2840E436877DF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsExample#4-multithreadingTests/Pods-DroidsOnRoidsExample#4-multithreadingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B5D14804ED2E62BD5AA034 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsExample#4-multithreadingTests/Pods-DroidsOnRoidsExample#4-multithreadingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA984CDE1E2445ED00D5A796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA984CE81E2445ED00D5A796 /* ViewController.swift in Sources */,
+				BA984D141E24487D00D5A796 /* RepositoriesViewController.swift in Sources */,
 				BA984CE61E2445ED00D5A796 /* AppDelegate.swift in Sources */,
+				BA984D181E244D0000D5A796 /* RepositoryNetworkModel.swift in Sources */,
+				BA984D161E244B5600D5A796 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +609,7 @@
 		};
 		BA984D0B1E2445ED00D5A796 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8300B541C2A1A1C9E8DF0F9D /* Pods-DroidsOnRoidsExample#4-multithreading.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
@@ -424,6 +623,7 @@
 		};
 		BA984D0C1E2445ED00D5A796 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F96A4343F7B9FBD61A43B9 /* Pods-DroidsOnRoidsExample#4-multithreading.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
@@ -437,6 +637,7 @@
 		};
 		BA984D0E1E2445ED00D5A796 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8748D478F3AEC6582C7B6229 /* Pods-DroidsOnRoidsExample#4-multithreadingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +653,7 @@
 		};
 		BA984D0F1E2445ED00D5A796 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5B57749648CA5D5255C6E1 /* Pods-DroidsOnRoidsExample#4-multithreadingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +669,7 @@
 		};
 		BA984D111E2445ED00D5A796 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A30039A7E5BACD23C8EE4A8 /* Pods-DroidsOnRoidsExample#4-multithreadingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
@@ -481,6 +684,7 @@
 		};
 		BA984D121E2445ED00D5A796 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E38483BBB473637E5B30A0 /* Pods-DroidsOnRoidsExample#4-multithreadingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
@@ -512,6 +716,7 @@
 				BA984D0C1E2445ED00D5A796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA984D0D1E2445ED00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsExample#4-multithreadingTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +725,7 @@
 				BA984D0F1E2445ED00D5A796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA984D101E2445ED00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsExample#4-multithreadingUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +734,7 @@
 				BA984D121E2445ED00D5A796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

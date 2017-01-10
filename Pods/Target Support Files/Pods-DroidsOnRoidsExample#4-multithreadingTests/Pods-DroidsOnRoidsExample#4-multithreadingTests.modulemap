@@ -1,0 +1,6 @@
+framework module Pods_DroidsOnRoidsExample_4_multithreadingTests {
+  umbrella header "Pods-DroidsOnRoidsExample#4-multithreadingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

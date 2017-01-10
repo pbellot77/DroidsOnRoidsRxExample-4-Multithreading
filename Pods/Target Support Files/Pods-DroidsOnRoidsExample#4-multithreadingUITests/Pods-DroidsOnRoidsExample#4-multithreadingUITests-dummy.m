@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_DroidsOnRoidsExample_4_multithreadingUITests : NSObject
+@end
+@implementation PodsDummy_Pods_DroidsOnRoidsExample_4_multithreadingUITests
+@end
